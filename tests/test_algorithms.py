@@ -14,7 +14,7 @@ from caster import Caster, execute_all
 
 def test_thread_valid():
     t = Thread(100.0, 0.5, "Test")
-    assert t.frequency == 999
+    assert t.frequency == 100.0
     assert t.stability == 0.5
 
 def test_thread_invalid_frequency():
